@@ -362,21 +362,18 @@ h1, h2, h3, h4, h5,
   border-radius: 50%;
   background: white;
   border: 1px solid var(--border);
-  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+
   text-decoration: none;
 }
 
 .social-icons a:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-md);
-  border-color: var(--muted-light);
 }
 
 .social-icons img {
   width: 18px;
   height: 18px;
-  opacity: 0.72;
-  transition: opacity 0.2s ease;
+  opacity: 1;
+
 }
 
 .social-icons a:hover img {
